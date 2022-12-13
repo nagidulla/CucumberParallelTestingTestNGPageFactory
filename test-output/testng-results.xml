@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-08T11:26:47Z" name="Suite" finished-at="2022-12-08T11:27:16Z" duration-ms="28912">
+    <groups>
+    </groups>
+    <test started-at="2022-12-08T11:26:47Z" name="Test" finished-at="2022-12-08T11:27:16Z" duration-ms="28912">
+      <class name="runners.SearchOutlineFeature">
+        <test-method signature="runCukes()[pri:0, instance:runners.SearchOutlineFeature@5a3bc7ed]" started-at="2022-12-08T16:56:47Z" name="runCukes" finished-at="2022-12-08T16:57:15Z" duration-ms="28281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCukes -->
+      </class> <!-- runners.SearchOutlineFeature -->
+      <class name="runners.SearchManyFeature">
+        <test-method signature="runCukes()[pri:0, instance:runners.SearchManyFeature@36a5cabc]" started-at="2022-12-08T16:56:47Z" name="runCukes" finished-at="2022-12-08T16:57:16Z" duration-ms="28883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCukes -->
+      </class> <!-- runners.SearchManyFeature -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

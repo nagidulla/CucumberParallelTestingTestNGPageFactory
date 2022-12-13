@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 27.772 sec <<< FAILURE! - in TestSuite
+runCukes(runners.SearchManyFeature)  Time elapsed: 21.015 sec  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.AssertionError: null
+	at runners.SearchManyFeature.runCukes(SearchManyFeature.java:21)
+Caused by: java.lang.AssertionError: null
+
+runCukes(runners.SearchOutlineFeature)  Time elapsed: 26.725 sec  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.AssertionError: null
+	at runners.SearchOutlineFeature.runCukes(SearchOutlineFeature.java:19)
+Caused by: java.lang.AssertionError: null
+
