@@ -42,7 +42,7 @@ public class BaseSteps {
 	
 	
 	public void startWebDriver(String browser) throws MalformedURLException {
-		System.out.println("alex");
+		System.out.println("Driver intializing...");
 		if(browser.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
