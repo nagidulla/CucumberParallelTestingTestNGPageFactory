@@ -54,6 +54,8 @@ public class BaseSteps {
 		setWebDriver(driver);
 		getDriver().manage().window().maximize();
 		wait = new WebDriverWait(getDriver(), Duration.ofSeconds(30));
+		
+		System.out.println("Driver initialized");
 	}
 	
 	public void navigate(String url) {
