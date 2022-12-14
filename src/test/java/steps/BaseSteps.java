@@ -27,7 +27,7 @@ public class BaseSteps {
 	
 	public void startPage() {
 		gPage = PageFactory.initElements(BaseSteps.getDriver(), GooglePage.class);
-		System.out.println("--------------------------------------");
+		System.out.println("-----------Changed------------");
 	}
 	
 	public static WebDriver getDriver() {
