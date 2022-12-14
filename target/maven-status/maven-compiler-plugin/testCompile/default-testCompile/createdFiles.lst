@@ -1,3 +1,4 @@
+pages\GooglePage.class
 steps\SearchManySteps.class
 runners\SearchOutlineFeature.class
 runners\SearchManyFeature.class
